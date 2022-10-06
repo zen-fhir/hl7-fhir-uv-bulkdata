@@ -1,0 +1,4 @@
+{ns hl7-fhir-uv-bulkdata,
+ import
+ #{hl7-fhir-r4-core
+   hl7-fhir-uv-bulkdata.value-set.include-associated-data}}
