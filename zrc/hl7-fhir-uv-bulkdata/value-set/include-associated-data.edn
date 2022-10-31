@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Metadata inclusion options for Bulk Data Access Export Operation includeAssociatedData parameter",
-  :zen.fhir/version "0.5.26-5",
+  :zen.fhir/version "0.5.27",
   :fhir/code-systems
   #{{:fhir/url
      "http://hl7.org/fhir/uv/bulkdata/CodeSystem/include-associated-data",
@@ -17,5 +17,4 @@
    :source-url "node_modules/hl7.fhir.uv.bulkdata",
    :source-type :ig,
    :ftr-path "ftr",
-   :zen/package-name "hl7-fhir-uv-bulkdata",
    :tag "init"}}}
