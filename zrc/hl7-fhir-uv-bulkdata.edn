@@ -1,8 +1,5 @@
 {ns hl7-fhir-uv-bulkdata,
  import #{zen.fhir},
  ig {:zen/tags #{zen.fhir/ig}, :value-sets value-sets},
- value-sets
- {:zen/tags #{zen.fhir/value-sets},
-  :value-sets
-  {"http://hl7.org/fhir/uv/bulkdata/ValueSet/include-associated-data"
-   #zen/quote hl7-fhir-uv-bulkdata.value-set.include-associated-data/value-set}}}
+ value-sets {:zen/tags #{zen.fhir/value-sets},
+             :value-sets {"http://hl7.org/fhir/uv/bulkdata/ValueSet/include-associated-data" #zen/quote hl7-fhir-uv-bulkdata.value-set.include-associated-data/value-set}}}
